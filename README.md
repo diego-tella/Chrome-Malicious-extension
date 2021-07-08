@@ -9,3 +9,12 @@ After running the php script and saving the credentials in a text file, the vict
 
 <h1>Conclusion</h1>
 It's extremely easy and simple to create malicious extensions for chrome and other browsers. With less than 10 lines of code it is now possible to steal user data from any website! So the bottom line is always to check if the extension you are using is really safe. Always check for feedback from other users and even check the extension code yourself. Malicious code as shown in this repository can easily be hidden among dozens of lines of code, so always be very careful.
+
+<h1>Images</h1>
+<h3>Example of stolen data in text file</h3>
+<img src="Images/img1.png" >
+<br>
+<h3>Example of how the extension looks in the browser</h3>
+<img src="Images/img2.png" >
+<h3>Example of extension modifying action to malicious page. Note that the extension is not even on the bookmarks bar.</h3>
+<img src="Images/img3.png" >
