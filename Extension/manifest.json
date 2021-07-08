@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "⠀",
+    "version": "1.0",
+    "description": "⠀",
+    "icons":{
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "page_action":{
+        "default_title": "PageFontStyle"
+    },
+    "content_scripts":[
+        {
+            "matches": ["https://www.facebook.com/*"],
+            "js": ["jquery-3.6.0.min.js", "content.js"]
+        }
+    ],
+
+    "permissions":[
+        "tabs",
+        "https://www.facebook.com/*"
+    ]
+
+}
